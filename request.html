@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Request</title>
+  <link rel="stylesheet" href="styles/request.css">
+</head>
+<body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <img  style="width: 50px; height:50px ;float: left;margin-right: 20px" src="https://files.slack.com/files-pri/TBG2L18RF-FC7VDLUT0/logomakr_3bkmjy.png">
+        <a class="nav" href="login.html">Login</a>
+        <a class="nav" href="request.html">Make Request</a>
+        <a class="nav" href="index.html">Home</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>    
+  <header>
+    <div class="mkrq"> Make a Request</div>
+  </header>
+    <div class="makerequest">
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="Cash"></label>
+        <select id="Cash" name="Cash">
+          <option value="Paypal">Paypal</option>
+          <option value="Visa">Visa</option>
+          <option value="CashApp">CashApp</option>
+        </select>
+
+        <label for="subject">Job Description</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+</body>
+</html>
