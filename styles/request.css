@@ -1,0 +1,99 @@
+body {
+    background-image: url(https://images5.alphacoders.com/439/thumb-1920-439361.jpg);
+    background-size:auto 100vh;
+}
+label {
+    font-size:20px;
+    font-family: 'Do Hyeon', sans-serif;
+    color:white;
+    text-shadow:2px 2px black; 
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(14, 10, 10);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+} 
+ /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgb(245, 248, 245);
+    color: rgb(14, 6, 6);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+ /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #fcfcfc;
+} 
+ /* Add a background color and some padding around the form */
+.container {
+    padding: 50px;
+    border-radius: 100px;
+    background-color: #0c0101;
+}
+.mkrq{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Do Hyeon', sans-serif;
+    color:white;
+    text-shadow:2px 2px black; 
+} 
+.topnav {
+    background-color: rgb(17, 1, 1);
+    overflow: hidden; 
+}
+ /* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+} 
+ /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+ /* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+.navigation-container{
+    width: 100%;
+}
+img{
+    width: 50px;
+    height:50px;
+    float: left;
+    margin-right: 20px;
+}
+.nav{
+    margin-bottom: 1px;
+}
+.box {
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid rgb(0, 0, 7);
+}
+.contact{
+    background-color: rgb(17, 1, 1);
+    overflow: hidden;
+}
+.makerequest {
+    opacity: 0.75;
+}
+ 
