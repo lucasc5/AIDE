@@ -81,13 +81,6 @@ input {
     background-color: #ddd;
     color: black;
  }
- 
- /* Add an active class to highlight the current page */
- .active {
-    background-color: rgb(14, 2, 2);
-    color: rgb(250, 245, 245);
- }
- 
  /* Hide the link that should open and close the topnav on small screens */
  .topnav .icon {
     display: none;
@@ -114,8 +107,7 @@ input {
     padding: 5px;
     border: 2px solid rgb(0, 0, 7);
  }
- 
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
  /* @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
